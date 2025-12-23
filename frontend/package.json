@@ -1,0 +1,29 @@
+{
+  "name": "digitalzeup-frontend",
+  "version": "1.0.0",
+  "description": "DigitalZeup.net Management System - Frontend",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve . -p 3001",
+    "dev": "npx serve . -p 3001",
+    "build": "echo 'No build step required for static HTML'",
+    "test": "echo 'No tests specified'"
+  },
+  "keywords": [
+    "management",
+    "erp",
+    "crm",
+    "hr",
+    "accounting",
+    "dashboard"
+  ],
+  "author": "DigitalZeup Team",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.0",
+    "socket.io-client": "^4.7.4"
+  }
+}
